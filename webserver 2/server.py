@@ -17,8 +17,8 @@ users = [
     "password": "adminpass"
     },
     {
-    "username": "blade",
-    "password": "edalb" #encrypted: a=fasdfsafsdfj289fd
+    "username": "kodee",
+    "password": "CUW2022" #encrypted: a=fasdfsafsdfj289fd
     }
 ]
 
@@ -37,8 +37,8 @@ def authentication(userObj):
 routes = {
     "static": {
         "/": open("index.html").read(),
-        "/about": "Copyright Reserved by Blade",
-        "/greeting": "Hello my friend",
+        "/about": "This is my webserver",
+        "/greeting": "Hello",
         "/login": open("login.html").read(),
     },
     "api": {
